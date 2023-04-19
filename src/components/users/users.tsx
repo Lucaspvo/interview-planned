@@ -65,7 +65,7 @@ function Users() {
 			console.debug(result);
 			setSearchData(result);
 		}
-	}, [debouncedValue]);
+	}, [data, debouncedValue]);
 
 	function handleMinValueChange(e: React.ChangeEvent<HTMLInputElement>) {
 		e.preventDefault();

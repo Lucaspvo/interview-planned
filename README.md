@@ -1,4 +1,4 @@
-# Planned Interview Test
+# Display and Filter list of users
 
 For this test, you will need to retrieve users from 3 different api endpoints. You will then need to order those users by name (firstName + lastName) *ascending* and if multiple people have the same name, order them by age *descending*.
 
